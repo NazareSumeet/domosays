@@ -9,10 +9,12 @@ Ta pelle, ton seau.
 
 == Process ==
 
-=== Spliter le message en phrase(s) ===
+=== Spliter le message en phrases ===
 
 A priori on utiliserait pour cela la fonction PHP [http://www.php.net/preg-split preg_split] avec comme pattern :
 {{{
 ([[points]][[espace]]*)*[[points]]
 }}}
 {{{[[points]]}}} étant une liste définie de points, comme {{{[.?!]}}} mais aussi peut-etre d'autres (voir en espagnol le ¿...).
+
+=== Spliter les phrases en groupes de mots ===
