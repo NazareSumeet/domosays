@@ -1,6 +1,8 @@
 = SandBox =
 Ta pelle, ton seau.
 
+----
+
 == Vocabulaire ==
 
  * {{{message}}}
