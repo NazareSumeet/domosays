@@ -1,0 +1,17 @@
+= SandBox =
+Ta pelle, ton seau.
+
+== Vocabulaire ==
+
+ * 'message'
+ * 'phrase' 
+ * 'mot'
+
+== Process ==
+
+=== Spliter le message en phrase(s) ===
+
+A priori on utiliserais pour cela la fonction PHP [www.php.net/preg-split preg_split] avec comme pattern :
+{{{
+([[points]][[espace]]*)*[[points]]
+}}}
