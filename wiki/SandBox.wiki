@@ -15,3 +15,4 @@ A priori on utiliserais pour cela la fonction PHP [http://www.php.net/preg-split
 {{{
 ([[points]][[espace]]*)*[[points]]
 }}}
+[[points]] étant une liste définie de points, comme [.?!] mais aussi peut-etre d'autres (voir en espagnol le ¿...).
