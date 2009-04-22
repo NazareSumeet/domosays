@@ -11,7 +11,7 @@ Ta pelle, ton seau.
 
 === Spliter le message en phrase(s) ===
 
-A priori on utiliserais pour cela la fonction PHP [www.php.net/preg-split preg_split] avec comme pattern :
+A priori on utiliserais pour cela la fonction PHP [http://www.php.net/preg-split preg_split] avec comme pattern :
 {{{
 ([[points]][[espace]]*)*[[points]]
 }}}
