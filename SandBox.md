@@ -1,0 +1,24 @@
+# SandBox #
+Ta pelle, ton seau.
+
+
+---
+
+
+## Vocabulaire ##
+
+  * `message`
+  * `phrase`
+  * `mot`
+
+## Process ##
+
+### 1. Spliter le message en phrases ###
+
+A priori on utiliserait pour cela la fonction PHP [preg\_split](http://www.php.net/preg-split) avec comme pattern :
+```
+([[points]][[espace]]*)*[[points]]
+```
+`[[points]]` étant une liste définie de points, comme `[.?!]` mais aussi peut-etre d'autres (voir en espagnol le ¿...).
+
+### 2. Spliter les phrases en groupes de mots ###
